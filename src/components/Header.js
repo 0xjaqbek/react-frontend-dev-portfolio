@@ -7,9 +7,14 @@ class Header extends Component {
 
   constructor() {
     super();
-    this.state = { checked: false };
+    this.state = { checked: true };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
+
+  componentDidMount() {
+    this.setTheme();
+  }
+  
 
   onThemeSwitchChange(checked) {
     this.setState({ checked });
@@ -20,7 +25,7 @@ class Header extends Component {
     var dataThemeAttribute = "data-theme";
     var body = document.body;
     var newTheme =
-      body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
+     body.getAttribute(dataThemeAttribute) === "light" ? "dark" : "light";
     body.setAttribute(dataThemeAttribute, newTheme);
   }
 

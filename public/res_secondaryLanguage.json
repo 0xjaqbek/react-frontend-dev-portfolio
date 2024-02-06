@@ -1,46 +1,42 @@
 {
     "basic_info": {
       "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description": "👋 Procesor 286, dyskietki 5.25 cala i monochromatyczna karta graficzna stanowią mój pierwszy kontakt z komputerami, sięgający czasów wczesnej podstawówki. Zanim ukończyłem szkołę podstawową, udało mi się postawić moje pierwsze strony internetowe. Teraz, wraz z błyskawicznym postępem technologii, ponownie rozpalam moją starą pasję z pełną determinacją. Jednak Internet się zmienił; stał się lepszy, przekształcając się w zdecentralizowaną formę. Dlatego skupiam się na Web 3. Możesz obserwować, jak przekształcam się w dewelopera Web 3 tu na stronie becomingweb3.dev.💜",
       "section_name": {
         "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "projects": "Ostatnie Projekty",
+        "skills": "Główne Umiejętności",
+        "experience": "Wcześniejsze Doświadczenie"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Raffle",
+        "startDate": "2023",
+        "description": "Aplikacja zdecentralizowana do przeprowadzania losowania przy użyciu algorytmu Fisher-Yates dla uzyskania przypadkowych liczb.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/raffle/p1.jpg",
+          "images/portfolio/raffle/p2.jpg"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       },
       {
-        "title": "Photography",
+        "title": "ZkGreeter",
         "startDate": "2018",
         "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/greeter/p1.jpg",
+          "images/portfolio/greeter/p2.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -81,35 +77,34 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Pixel Cars: Motorsport Club",
+        "title": "Web 3 Developer",
+        "years": "01.2024",
         "mainTech": [
-          "Angular 8/9/10"
+          "Solidity"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "React",
+          "TypeScript",
+          "Node.js",
+          "Yarn",
+          "Truffle"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Trust the Process",
+        "title": "Funder",
+        "years": "10.2023",
         "mainTech": [
-          "Angular 7/8"
+          "Web3.js"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
+          "Solidity",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Html+CSS",
+          "ERC 20",
+          "Stake Smart Contract",
+          "ERC 721"
         ]
       }
     ]

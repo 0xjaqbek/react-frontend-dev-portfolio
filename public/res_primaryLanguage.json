@@ -1,48 +1,44 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 An 286 processor, a 5.25-inch floppy disk, and a monochromatic graphics card mark my early foray into the world of computers, dating back to my early elementary school days. Before completing primary school, I managed to launch my first web pages on the Internet. Now, with technology advancing at an incredible pace, I am rekindling my old passion with full force. However, the Internet has changed; it has become better, evolving into a decentralized form. That's why I am focusing on web3. You can witness how I've transformed into a web3 developer here at becomingweb3.dev.💜",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
+        "projects": "Recent Projects",
+        "skills": "Main Skills",
+        "experience": "Previous Experience"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Raffle",
+        "startDate": "2023",
+        "description": "A decentralized application for conducting draws using the Fisher-Yates algorithm to generate random numbers.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/raffle/p1.jpg",
+          "images/portfolio/raffle/p2.jpg"
         ],
-        "url": "",
+        "url": "https://becomingweb3.dev/raffle/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "ZkGreeter",
+        "startDate": "2023",
+        "description": "This is an almost basic/classic greeter dApp. It have Owner greeting and visitors can retrive that just like other guests greetings. Greetings count strats from ZERO. As always in my dApp's, no costs involved besides that used to run functions.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/greeter/p1.jpg",
+          "images/portfolio/greeter/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://becomingweb3.dev/zkgreeter/",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -80,38 +76,49 @@
       }
     ],
     "experience": [
+
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Developer",
+        "title": "Voter on Scroll",
+        "years": "08.2023",
         "mainTech": [
-          "Angular 8/9/10"
+          "Solidity"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "Ethers.js",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "HTML",
+          "CSS"
+        ]
+      },
+
+      {
+        "company": "Developer",
+        "title": "Custom Metadata NFT",
+        "years": "07.2023",
+        "mainTech": [
+          "Solidity"
+        ],
+        "technologies": [
+          "Ethers.js",
+          "JavaScript",
+          "HTML",
+          "CSS"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Web3 Dev",
+        "title": "Cozmix NFT",
+        "years": "05.2023",
         "mainTech": [
-          "Angular 7/8"
+          "Solidity"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "React",
+          "Node.js",
+          "Merkle Tree/Root",
+          "TypeScript",
+          "IPFS"
         ]
       }
     ]

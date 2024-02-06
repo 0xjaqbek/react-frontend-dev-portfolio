@@ -1,20 +1,16 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Jakub Skwierawski",
+      "titles": [ "WEB 3 Developer", "Smart Contracts", "dApp's" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/0xjaqbek",
           "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
         }
+
       ],
-      "image": "myProfile.jpg"
+      "image": "626.png"
     },
     "skills": {
       "icons": [
@@ -29,13 +25,14 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
+          "name": "Solidity",
+          "class": "devicon-solidity-plain",
+          "level": "95"
         },
+
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain",
           "level": "90"
         },
         {
@@ -44,24 +41,9 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "React",
+          "class": "devicon-react-original",
           "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
         }
       ]
     }
